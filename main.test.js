@@ -14,7 +14,7 @@ function multiply(num){
 }
 
 function modYBy(num){
-       y = y % (num);
+       y = y % num;
  }
 
 function opposite(num){
@@ -27,8 +27,7 @@ function makeFullName(Lname){
 
 
 function yellAt(name){
-  greeting = (greeting +', ' + name + '!') 
-  console.log(greeting)
+  greeting = (greeting +', ' + name + '!');
 }
 
 /*********************************************************************************************************************
